@@ -32,9 +32,9 @@ body {
 }
 
 .resumebox {
-  border-bottom: 100px solid rgba(247, 3, 3, 0.568);
+  border-bottom: 100px solid rgba(4, 138, 131, 0.548);
   border-right: 50px solid transparent;
-  width: 270px;
+  width: 320px;
   height: 40px;
   margin-top: 7%;
 }
@@ -42,7 +42,7 @@ body {
 .resumebox h3 {
   padding-top: 27px;
   font-family: 'Josefin Slab', sans-serif;
-  color: pink;
+  color: whitesmoke;
 }
 
 .mycard {
@@ -83,11 +83,10 @@ nav a:hover {
 
 .project-container {
   color: antiquewhite;
-  width: 700px;
-  margin: auto;
+  width: 100%;
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .mycard {
     display: flex;
     margin-top: 15%;
@@ -110,7 +109,7 @@ nav a:hover {
     text-align: end;
     padding-bottom: 5px;
   }
-}
+} */
 
 .project-container p {
   font-size: 0.8em;
@@ -124,7 +123,7 @@ nav a:hover {
 
 .project-icon {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   width: 150px;
   height: 137px;
 }
