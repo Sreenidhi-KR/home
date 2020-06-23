@@ -86,30 +86,20 @@ nav a:hover {
   width: 100%;
 }
 
-/* @media (max-width: 750px) {
+@media (max-width: 750px) {
   .mycard {
     display: flex;
-    margin-top: 15%;
+    margin-top: 45%;
     justify-content: center;
     align-items: center;
   }
-  .project-container {
-    color: antiquewhite;
-    width: 500px;
-    margin: auto;
+  .resumediv {
+    display: flex;
+    margin-top: 45%;
+    justify-content: center;
+    align-items: center;
   }
-  .project-icon {
-    width: 80px;
-    height: 80px;
-  }
-  .projectdesc {
-    padding: 5px;
-  }
-  .projecttools {
-    text-align: end;
-    padding-bottom: 5px;
-  }
-} */
+}
 
 .project-container p {
   font-size: 0.8em;
