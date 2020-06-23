@@ -24,23 +24,22 @@ body {
   margin-left: auto;
 }
 
-.resumediv {
+.projecthead {
   display: flex;
-  margin-top: 5em;
+
   justify-content: center;
   align-items: center;
 }
 
-.resumebox {
-  border-bottom: 100px solid rgba(4, 138, 131, 0.548);
-  border-right: 50px solid transparent;
-  width: 320px;
-  height: 40px;
-  margin-top: 7%;
-}
+.projectbox {
+  border-bottom: 70px solid rgba(4, 138, 131, 0.548);
 
-.resumebox h3 {
-  padding-top: 27px;
+  width: 320px;
+  height: 20px;
+  margin-top: 20px;
+}
+.projectbox h3 {
+  padding-top: 15px;
   font-family: 'Josefin Slab', sans-serif;
   color: whitesmoke;
 }
@@ -54,7 +53,7 @@ body {
 @media (max-width: 600px) {
   .mycard {
     display: flex;
-    margin-top: 2em;
+    margin-top: 3em;
     justify-content: center;
     align-items: center;
   }
